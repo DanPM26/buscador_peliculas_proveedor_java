@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "peliculas")
 public class Movie {
+    // Modelo de peliculas
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
