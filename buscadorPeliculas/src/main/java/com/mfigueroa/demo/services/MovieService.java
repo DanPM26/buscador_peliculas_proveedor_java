@@ -13,6 +13,7 @@ public class MovieService {
     @Autowired
     private MovieRepository movieRepository;
 
+    // Obtenemos peliculas por proveedor
     public List<Movie>obtenerPeliculasPorProveedor(String nombreProveedor) {
         return movieRepository.findByProveedor(nombreProveedor);
     }

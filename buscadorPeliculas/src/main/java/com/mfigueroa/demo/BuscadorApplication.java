@@ -21,8 +21,6 @@ public class BuscadorApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(BuscadorApplication.class, args);
 	}
-
-
 	@Override
 	public void run(String... args) throws Exception {
 		Scanner sc = new Scanner(System.in);
