@@ -14,6 +14,7 @@ public class Movie {
     // Modelo de peliculas
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // Long id
     private Long id;
     private String nombre;
     private String proveedor;

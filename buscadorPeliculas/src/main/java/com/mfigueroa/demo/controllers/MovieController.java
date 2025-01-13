@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/api")
 public class MovieController {
 
+
+    // Retornamos todo el indice
     @GetMapping()
     public String index() {
         return "index";
